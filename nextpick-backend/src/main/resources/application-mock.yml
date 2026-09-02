@@ -1,0 +1,6 @@
+spring:
+  config:
+    activate:
+      on-profile: mock
+
+# This profile is deterministic and must only be used for local demos/tests.

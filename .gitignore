@@ -1,0 +1,28 @@
+# Local configuration and credentials. Commit only the template.
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+
+# IDE and operating-system files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated backend/frontend artifacts
+nextpick-backend/target/
+nextpick-frontend/node_modules/
+nextpick-frontend/dist/
+nextpick-frontend/coverage/
+nextpick-frontend/.angular/
+nextpick-frontend/test-results/
+nextpick-frontend/playwright-report/
+*.log
+
+# Local certificates and Java keystores
+*.jks
+*.p12
+*.pfx
