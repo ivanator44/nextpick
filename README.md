@@ -1,6 +1,6 @@
 # NextPick
 
-NextPick es un MVP full-stack para descubrir películas y series desde TMDB, consultar detalles y disponibilidad en España, guardar favoritos y mantener conversaciones de recomendación. Angular nunca conoce las credenciales externas: todo el catálogo se normaliza en Spring Boot y PostgreSQL almacena únicamente datos privados y snapshots mínimos de favoritos.
+NextPick es un full-stack para descubrir películas y series desde TMDB, consultar detalles y disponibilidad en España, guardar favoritos y mantener conversaciones de recomendación. Angular nunca conoce las credenciales externas: todo el catálogo se normaliza en Spring Boot y PostgreSQL almacena únicamente datos privados y snapshots mínimos de favoritos.
 
 ## Requisitos
 
